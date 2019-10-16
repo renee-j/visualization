@@ -109,3 +109,10 @@ Weave是一个免费的数据可视化平台，符合ADA标准。该工具带有
 
 Dygraphs是一个基于JavaScript的开源图表库。这个免费的工具可以用来分析密集的数据集。该工具是高度可定制的，并适用于所有浏览器。该工具为错误栏/置信区间提供了强有力的支持。
 
+### 所选的数据集
+
+[Ramen Ratings](https://www.kaggle.com/residentmario/ramen-ratings/)
+
+数据集
+
+收集自拉面狂热爱好者的评论网站
