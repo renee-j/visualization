@@ -10,7 +10,7 @@ http://www.finereport.com/keshihua?utm_source=ad&utm_medium=bdtg&utm_campaign=ke
 
 #### 3.Data Wrapper
 
-Datawrapper可以轻松创建图表和图。只需单击鼠标，即可轻松创建等值线，符号或定位图。这些图表是互动的，响应性的，可嵌入网站。该工具的免费版本适用于单个用户，支持10,000个月图表视图。
+Datawrapper可以创建图表和图。图表是互动的，响应性的，可嵌入网站。该工具的免费版本适用于单个用户，支持10,000个月图表视图。
 
 Datawrapper主要面向记者。世界各地的新闻记者都使用Datawrapper来构建他们的图表和地图。然而，对于任何想要可视化来伴随他们的文章的人来说，它都非常有用。该网站还办了名为CHARTABLE的博客，他们定期撰写有关数据可视化的最佳实践。
 
@@ -143,16 +143,18 @@ Smartbi Insight提供丰富的ECharts图形可视化选择。通过电子表格�
 呈现2
 
 ![呈现2](https://github.com/renee-j/visualization/blob/master/kaggle/Pasted%20Graphic%201.png)
-
-(工具：Data Wrapper；注：从最后呈现中截取部分数据)
+各国品牌包装偏好
+(工具：Data Wrapper；注：从最后交互呈现中截取部分数据样例)
 
 呈现3
 
 ![呈现3-1](https://github.com/renee-j/visualization/blob/master/kaggle/Pasted%20Graphic%202.png)
+各国品牌数量
 ![呈现3-2](https://github.com/renee-j/visualization/blob/master/kaggle/Pasted%20Graphic%203.png)
-
-(工具：smartbi；注：从交互图中截取部分样例)
+各国品牌包装偏好
+(工具：smartbi；注：从最后交互呈现中截取部分数据样例)
 
 #### 使用体会
 
-物可视与smartbi都是国内的数据分析和可视化工具，操作比较简单
+选择这几个软件可能很大原因是因为它们不用翻墙、能流畅使用而且对新手还算友好……
+物可视与smartbi是国内的数据分析和可视化工具，操作比较简单。物可视可以通过多种形式进行数据录入和图表修改，且能在一块大屏上进行多层次编辑，smartbi数据处理能力很强大，但通过数据透视处理表格导出在同一界面的可视化图表只能针对单一设定，感觉不是很方便。Data Wrapper可呈现的形式很丰富，操作和系统更为便捷，甚至不需要申请账号……但对数据的分析能力不是很高，也是只能处理单一数据，而且不知道是不是没有翻墙的原因，分析和调试都非常慢且不稳定。（可能还没有真正学会它们怎么用orz）
