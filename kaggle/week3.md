@@ -129,7 +129,7 @@ Smartbi Insight提供丰富的ECharts图形可视化选择。通过电子表格�
 
 [Ramen Ratings](https://www.kaggle.com/residentmario/ramen-ratings/)
 
-数据集
+[自己对数据集的尝试处理](https://github.com/renee-j/visualization/blob/master/kaggle/ramen-ratings.xls)
 
 收集自拉面狂热爱好者的评论网站
 
@@ -140,13 +140,15 @@ Smartbi Insight提供丰富的ECharts图形可视化选择。通过电子表格�
 
 (工具：物可视sugar)
 
-呈现2
+
+呈现2：
 
 ![呈现2](https://github.com/renee-j/visualization/blob/master/kaggle/Pasted%20Graphic%201.png)
 各国品牌包装偏好
 (工具：Data Wrapper；注：从最后交互呈现中截取部分数据样例)
 
-呈现3
+
+呈现3：
 
 ![呈现3-1](https://github.com/renee-j/visualization/blob/master/kaggle/Pasted%20Graphic%202.png)
 各国品牌数量
