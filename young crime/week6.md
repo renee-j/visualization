@@ -42,3 +42,10 @@
 
 ### 信息/数据来源链接：
 
+1.[低龄未成年人犯罪之后该如何"管"](http://news.sina.com.cn/c/2019-11-08/doc-iicezzrr8063936.shtml).正义网
+2.[问题少年，何以为策？——专家聚焦未成年人违法犯罪几个话题](https://www.chinacourt.org/article/detail/2019/10/id/4598245.shtml).中国法院网
+3.[学者：应对未成年人犯罪，如何宽容但不纵容](http://opinion.caixin.com/2019-10-30/101476743.html).财新网
+4.[怎样约束“危险少年”？](http://opinion.caixin.com/2019-10-25/101475472.html).财新网
+5.[域外未成年人刑事责任年龄制度](https://www.chinacourt.org/article/detail/2019/11/id/4621173.shtml).中国法院网
+6.[]().
+7.[]().
