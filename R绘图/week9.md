@@ -10,7 +10,7 @@
 
 > garbage <- read_excel("garbage.xlsx",sheet=1)
                                                                                                  
-> p <- ggplot(garbage, aes(x = date,y = number))
+> p <- ggplot(garbage, aes(x = date,y = number,fill=))
 
 > p + geom_bar(aes(colour = factor(mode)),stat="identity",width=0.5) + scale_fill_manual(values=c('#999999','#f9f2ff','#555555'))
 
@@ -47,9 +47,9 @@
 
 > crime2 <- read_excel("young crime.xlsx",sheet = 2)
 
-> pc2 <- ggplot(crime2, aes(x = charge,y = numbers))
+> pc2 <- ggplot(crime2, aes(x = charge,y = numbers,fill=ages))
 
-> pc2 + geom_bar(aes(colour = factor(ages)),stat="identity",width=0.5)
+> pc2 + geom_bar(aes(colour = factor(ages)),stat="identity",width=0.5) + coord_flip() + scale_fill_manual(values=c('#990000','#999999'))
 
 原图：
 ![原图2](https://github.com/renee-j/visualization/blob/master/young%20crime/图2.png)
