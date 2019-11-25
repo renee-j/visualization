@@ -39,11 +39,9 @@
 
 > crime <- read_excel("young crime.xlsx",sheet = 1)
 
-> pc <- ggplot(crime, aes(x = age,y = numbers))
+> pc <- ggplot(crime, aes(x = age,y = numbers,fill=age))+geom_bar(stat="identity",width=0.5)+coord_flip() + scale_fill_manual(values=c('#80d5ff','#0099e6','#0088cc','#006699'))
 
-> pc + geom_bar(aes(colour = factor(numbers)),stat="identity",width=0.5)
-
-> pc + geom_bar(stat="identity",width=0.5)
+> pc
 
 > crime2 <- read_excel("young crime.xlsx",sheet = 2)
 
@@ -55,7 +53,7 @@
 ![原图2](https://github.com/renee-j/visualization/blob/master/young%20crime/图2.png)
 
 重新制图：
-![R绘图2](https://github.com/renee-j/visualization/blob/master/R绘图/年龄分布.png)
+![R绘图2](https://github.com/renee-j/visualization/blob/master/R绘图/WechatIMG9.png)
 ![R绘图3](https://github.com/renee-j/visualization/blob/master/R绘图/WechatIMG8.png)
 
 说明：
