@@ -12,11 +12,11 @@
                                                                                                  
 > p <- ggplot(garbage, aes(x = date,y = number))
 
-> p + geom_bar(aes(colour = factor(mode)),stat="identity",width=0.5)
+> p + geom_bar(aes(colour = factor(mode)),stat="identity",width=0.5) + scale_fill_manual(values=c('#999999','#f9f2ff','#555555'))
 
 > garbage2 <- read_excel("garbage.xlsx",sheet=2)
                                                                                                  
-> p2 <- ggplot(garbage2, aes(x = date,y = percent))
+> p2 <- ggplot(garbage2, aes(x = date,y = percent,group=1))
 
 > p2 + geom_line() + geom_point(size=2, shape=5) + geom_text(aes(label=percent),vjust=-1.5)
 
@@ -26,7 +26,7 @@
 ![原图](https://github.com/renee-j/visualization/blob/master/garbage%20classification/WeChatb77706e407131678dbd9fe659ccd3d0c.png)
 
 重新制图：
-![R绘图](https://github.com/renee-j/visualization/blob/master/R绘图/垃圾分类.png)
+![R绘图](https://github.com/renee-j/visualization/blob/master/R绘图/WechatIMG5.png)
 ![R绘图](https://github.com/renee-j/visualization/blob/master/R绘图/折线.png)
 
 说明：
