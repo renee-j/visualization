@@ -39,7 +39,9 @@
 
 > crime <- read_excel("young crime.xlsx",sheet = 1)
 
-> pc <- ggplot(crime, aes(x = age,y = numbers,fill=age))+geom_bar(stat="identity",width=0.5)+coord_flip() + scale_fill_manual(values=c('#80d5ff','#0099e6','#0088cc','#006699'))
+> pc <- ggplot(crime, aes(x = age,y = numbers,fill=age))+geom_bar(stat="identity",width=0.5)+coord_flip() + scale_fill_manual(values=c('#006699','#0088cc','#0099e6','#80d5ff'))
+
+> crime$age = factor(crime$age, levels=c('17岁','16岁','15岁','14岁'))
 
 > pc
 
@@ -53,9 +55,9 @@
 ![原图2](https://github.com/renee-j/visualization/blob/master/young%20crime/图2.png)
 
 重新制图：
-![R绘图2](https://github.com/renee-j/visualization/blob/master/R绘图/WechatIMG9.png)
+![R绘图2](https://github.com/renee-j/visualization/blob/master/R绘图/WechatIMG11.png)
 ![R绘图3](https://github.com/renee-j/visualization/blob/master/R绘图/WechatIMG8.png)
 
 说明：
 
-原来一个图表示了两个图的信息，但用r写的时候就不知道该如何合到一起了orz……思考呈现方式的时候发现，这张图表和垃圾分类的图表在实质的呈现形式上没有区别，因为原图更想体现的是比例，但当呈现形式被固定后好像也落入了柱状图的泥淖，但自己剩下的两张图数据更无法用r处理于是就出了两个柱状图，还不知道如何让柱横过来……（r可以直观呈现比例嘛？）另外，因为原数据无法直接被r处理，所以自己这次两个制图都提前在excel里对数据进行了加工，把年龄和犯罪情况、数量和比率两个数据分列到了两个表里，不知道有没有什么更好地处理方式。（也是因为之前是自己手工制图，所以14岁以下的数据缺失在原图里有所表达，但r制图的时候就不知道如何是好了。）
+原来一个图表示了两个图的信息，但用r写的时候就不知道该如何合到一起了orz……思考呈现方式的时候发现，这张图表和垃圾分类的图表在实质的呈现形式上没有区别，因为原图更想体现的是比例，但当呈现形式被固定后好像也落入了柱状图的泥淖，但自己剩下的两张图数据更无法用r处理于是就出了两个柱状图，还不知道如何让x轴反向……（有什么更好地直观呈现比例的方法嘛？）另外，因为原数据无法直接被r处理，所以自己这次两个制图都提前在excel里对数据进行了加工，把年龄和犯罪情况、数量和比率两个数据分列到了两个表里，不知道有没有什么更好地处理方式。（也是因为之前是自己手工制图，所以14岁以下的数据缺失在原图里有所表达，但r制图的时候就不知道如何是好了。）
