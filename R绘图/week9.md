@@ -10,7 +10,7 @@
 
 > garbage <- read_excel("garbage.xlsx",sheet=1)
                                                                                                  
-> p <- ggplot(garbage, aes(x = date,y = number,fill=))
+> p <- ggplot(garbage, aes(x = date,y = number,fill=mode))
 
 > p + geom_bar(aes(colour = factor(mode)),stat="identity",width=0.5) + scale_fill_manual(values=c('#999999','#f9f2ff','#555555'))
 
