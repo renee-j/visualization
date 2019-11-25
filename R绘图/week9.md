@@ -56,7 +56,7 @@
 
 重新制图：
 ![R绘图2](https://github.com/renee-j/visualization/blob/master/R绘图/年龄分布.png)
-![R绘图3](https://github.com/renee-j/visualization/blob/master/R绘图/犯罪情况.png)
+![R绘图3](https://github.com/renee-j/visualization/blob/master/R绘图/WechatIMG7.png)
 
 说明：
 
